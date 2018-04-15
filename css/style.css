@@ -1,0 +1,62 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background-color: grey;
+}
+
+.container {
+  width: 375px;
+  height: 667px;
+  background-color: #F8F8F8;
+  margin: 0 auto;
+}
+
+img {
+  margin-left: 1%;
+  width: 98%;
+}
+
+h1 {
+  font-size: 19px;
+  font-weight: normal;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  text-align: right;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+h3 {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 9px;
+}
+
+table {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+table th {
+  border-radius: 25px;
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  text-align: center;
+}
+
+.Westbound {
+}
+
+.Westbound h3 {
+}
+
+.b-block table {
+  width: 40px;
+  margin-left: 15px;
+}
