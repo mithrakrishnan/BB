@@ -127,7 +127,6 @@ h4 {
 /* .t-navbar li:hover, .b-navbar li:hover, .top-block h2:hover {
   background-color: #FEFBEA;
 } */
-
 .reroute {
     border: 2px;
     border-style: solid;
@@ -135,7 +134,7 @@ h4 {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     background-color: white;
-    margin-right: -2px;
+    margin-right: -4px;
     background-color: white;
 }
 .out {
