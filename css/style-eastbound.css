@@ -1,0 +1,195 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial;
+  background-color: grey;
+}
+
+.container {
+  width: 375px;
+  height: 667px;
+  background-color: #FBECE6;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 3%;
+  background-image: url(../img/map2.png);
+  background-size: 120%;
+  background-position: -25px:
+}
+
+img {
+  padding: 1% 1% 1% 2%;
+  width: 99%;
+  height: 99%;
+}
+
+.nav-title {
+  margin-top: 8px;
+  margin-bottom: 14px;
+  width: 84%;
+  margin-right: 21%;
+  margin-left: -1%;
+}
+
+.arrow i {
+  display: inline-block;
+  border: solid #FF2D55;
+  border-width: 0px 3.8px 3.8px 0px;
+  border-radius: 3px;
+  padding: 6.5px;
+  transform: rotate(135deg);
+}
+.title li {
+  display: inline-block;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #FF2D55;
+  margin-left: 12px;
+}
+h2 {
+  text-align: right;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #565656;
+}
+h3 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FF2D55;
+}
+h4 {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.28;
+  color: #454545;
+}
+
+.top-block {
+  background-color: #F8F8F8;
+  display: block;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #B4B2B2;
+}
+
+.top-block ul {
+  text-align: center;
+  list-style: inside;
+}
+.top-block li {
+    display: inline-block;
+    padding: 9.8px 18px 9.5px 18px;
+}
+
+.t-navbar {
+  padding-bottom: 6px;
+}
+.b-navbar {
+  padding-bottom: 15px;
+}
+.b-navbar li {
+  padding: 9px 18px 8px 18px;
+}
+
+.eastbound {
+  border: 2px;
+  border-style: solid;
+  border-color: #FF2D55;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #FF2D55;
+}
+.eastbound h3 {
+  color: white;
+}
+.northbound {
+  border-top: 2px;
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: #FF2D55;
+  background-color: white;
+}
+.southbound {
+  border: 2px;
+  border-style: solid;
+  border-color: #FF2D55;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: white;
+}
+
+.t-navbar li:hover, .b-navbar li:hover, .top-block h2:hover {
+  background-color: #FEFBEA;
+}
+
+.reroute {
+    border: 2px;
+    border-style: solid;
+    border-color: #FF2D55;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: white;
+    margin-right: -2px;
+    background-color: white;
+}
+.out {
+  border: 2px;
+  border-style: solid;
+  border-color: #FF2D55;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: white;
+}
+
+.bottom-block {
+  position: absolute;
+  bottom: 0;
+  width: 100%
+}
+
+.b-block {
+  border-top: 1px;
+  border-style: solid;
+  border-color: #B4B2B2;
+  background-color: white;
+  padding: 5% 4%;
+  min-height: 60px;
+}
+
+#yourbus {
+  background-color: #FEFBEA;
+}
+
+.bus-number {
+  display: inline-block;
+  width: 13.5%;
+  margin-right: 4.5%;
+}
+.bus-number h3 {
+  text-align: center;
+  border: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: white;
+}
+
+.destination {
+  display: inline-block;
+  border: 2px;
+  vertical-align: middle;
+  width: 40%;
+}
+
+.frequency {
+  display: inline-block;
+  vertical-align: middle;
+  width: 42%;
+}
