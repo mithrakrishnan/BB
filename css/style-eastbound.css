@@ -124,9 +124,9 @@ h4 {
   background-color: white;
 }
 
-.t-navbar li:hover, .b-navbar li:hover, .top-block h2:hover {
+/* .t-navbar li:hover, .b-navbar li:hover, .top-block h2:hover {
   background-color: #FEFBEA;
-}
+} */
 
 .reroute {
     border: 2px;
@@ -156,7 +156,7 @@ h4 {
 .b-block {
   border-top: 1px;
   border-style: solid;
-  border-color: #B4B2B2;
+  border-color: #C9C9C9;
   background-color: white;
   padding: 5% 4%;
   min-height: 60px;

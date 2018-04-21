@@ -105,7 +105,7 @@ h4 {
   border-bottom-left-radius: 5px;
   background-color: white;
 }
-.reroute h3 {
+.out h3 {
   color: white;
 }
 .northbound {
@@ -124,9 +124,9 @@ h4 {
   background-color: white;
 }
 
-.t-navbar li:hover, .b-navbar li:hover, .top-block h2:hover {
+/* .t-navbar li:hover, .b-navbar li:hover, .top-block h2:hover {
   background-color: #FEFBEA;
-}
+} */
 
 .reroute {
     border: 2px;
@@ -136,7 +136,7 @@ h4 {
     border-bottom-left-radius: 5px;
     background-color: white;
     margin-right: -2px;
-    background-color: #FF2D55;
+    background-color: white;
 }
 .out {
   border: 2px;
@@ -144,7 +144,7 @@ h4 {
   border-color: #FF2D55;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  background-color: white;
+  background-color: #FF2D55;
 }
 
 .bottom-block {
@@ -156,7 +156,7 @@ h4 {
 .b-block {
   border-top: 1px;
   border-style: solid;
-  border-color: #B4B2B2;
+  border-color: #C9C9C9;
   background-color: white;
   padding: 5% 4%;
   min-height: 60px;
